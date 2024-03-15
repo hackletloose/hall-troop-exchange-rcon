@@ -7,5 +7,5 @@ For example, this could allow switching during seeding, but not afterwards.
 ToDo:
 Execute the following commands after downloading:
 1. Edit the .env file and enter your values.
-2. Run the command "pip install dotenv".
+2. Run the command "pip install python-dotenv".
 3. Start the script with "python bot.py".
