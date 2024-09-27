@@ -1,0 +1,12 @@
+[Unit]
+Description=Hell Let Loose !switchme command handler service
+After=network.target
+
+[Service]
+User=<dein-benutzername>
+WorkingDirectory=/pfad/zu/deinem/hall-troop-exchange-rcon
+ExecStart=/usr/bin/python3 /pfad/zu/deinem/hall-troop-exchange-rcon/troop-exchange.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
